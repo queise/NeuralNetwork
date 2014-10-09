@@ -13,10 +13,11 @@ The neural network classifies using regularized logistic regression. The gradien
 
 - ho_func.py :  Among other functions, the ones that create the matrixes with inputs and outputs of the neural network.
 
-- diabetic_data.csv : Not provided here, can be obtained at this link [2]
+- diabetic_data.csv : Not provided here, can be obtained at [this link](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008) [2]
 
 
-The repository of subokita [3] was used in the initial stage of development. Thank you! Thanks also to [joblib](https://pythonhosted.org/joblib/)
+Dependencies: [scipy](http://www.scipy.org/), [numpy](http://www.numpy.org/), [joblib](https://pythonhosted.org/joblib/).
+This [repository](https://github.com/subokita/mlclass/blob/master/ex4.py) was used in the initial stage of development. Thank you! 
 
 
 
@@ -24,4 +25,4 @@ The repository of subokita [3] was used in the initial stage of development. Tha
 
 [2] https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008
 
-[3] https://github.com/subokita/mlclass/blob/master/ex4.py
+[3] 
