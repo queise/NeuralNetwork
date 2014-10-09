@@ -17,7 +17,8 @@ The neural network classifies using regularized logistic regression. The gradien
 
 
 Dependencies: [scipy](http://www.scipy.org/), [numpy](http://www.numpy.org/), [joblib](https://pythonhosted.org/joblib/).
-This [repository](https://github.com/subokita/mlclass/blob/master/ex4.py) was used in the initial stage of development. Thank you! 
+
+In the initial stage of development I used functions from this [repository](https://github.com/subokita/mlclass/blob/master/ex4.py).
 
 
 
