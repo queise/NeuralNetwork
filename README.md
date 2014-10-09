@@ -26,4 +26,3 @@ In the initial stage of development I used functions from this [repository](http
 
 [2] https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008
 
-[3] 
