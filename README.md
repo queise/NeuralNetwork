@@ -7,11 +7,11 @@ The neural network classifies using regularized logistic regression. The gradien
 
 - [ho_main.py](ho_main.py) :    Main structure, see the comments on the script for the details
 
-- ho_nnclass.py :    Definition of the NeuralNetwork class and functions.
+- [ho_nnclass.py](ho_nnclass.py) :    Definition of the NeuralNetwork class and functions.
 
-- ho_nnfunc.py :    Functions to compute the cost, gradient, accuracy...
+- [ho_nnfunc.py](ho_nnfunc.py) :    Functions to compute the cost, gradient, accuracy...
 
-- ho_func.py :  Among other functions, the ones that create the matrixes with inputs and outputs of the neural network.
+- [ho_func.py](ho_func.py) :  Among other functions, the ones that create the matrixes with inputs and outputs of the neural network.
 
 - diabetic_data.csv : Not provided here, can be obtained at [this link](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008) [2]
 
