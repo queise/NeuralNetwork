@@ -47,7 +47,7 @@ class NeuralNetwork(object):
         """ Trains the neural network with the training set, and then tests it with the test sets.
             For the training (optimization of parameters) uses scipy.optimize.fmin_cg().
             Both training and testing functions are called through F_testtrainsingle() (function in ho_nnfunc),
-            for a simpler implementation of the parallellization. """
+            for a simpler implementation of the parallelization. """
         num_cores = multiprocessing.cpu_count()
         if len(self.lams)>1: print '\n *** The optimization of parameters will run in parallel for different lambdas.\n'
         tupleout = Parallel(n_jobs=num_cores)(delayed(F_testtrainsingle)
