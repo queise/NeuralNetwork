@@ -5,7 +5,7 @@ A **simple** python neural network to analyse data from diabetic patients in 130
 The architecture of the network is flexible (number of layers, input and output units).
 The neural network classifies using regularized logistic regression. The gradients are computed with backpropagation and are checked numerically. The network is optimized with the scipy.optimize.fmin_cg algorithm. When several regularization parameters are used, the optimization is parallelized. Finally, learning curves are computed to evaluate the performance of the neural network.
 
-- ho_main.py :    Main structure, see the comments on the script for the details
+- [ho_main.py](ho_main.py) :    Main structure, see the comments on the script for the details
 
 - ho_nnclass.py :    Definition of the NeuralNetwork class and functions.
 
