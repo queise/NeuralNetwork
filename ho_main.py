@@ -18,7 +18,7 @@ def main():
     K = 2                                 # num of units of the output layer
 
     # Creation of input and output matrixes:
-    X, y = F_createXymatrixes(ldict, K, fraction=0.0001)
+    X, y = F_createXymatrixes(ldict, K, fraction=0.1)
 
     # Initializes Neural Network:
     NN = NeuralNetwork(X, y, L, lambdas)
@@ -27,7 +27,7 @@ def main():
     NN.F_printnninfo()
 
     # Check correctness of gradient calculation:
-#    NN.F_checkGradient()	# very slow, comment
+#    NN.F_checkGradient()	# very slow, comment once tested
 
     # Training and testing network:
     NN.F_traintest()
