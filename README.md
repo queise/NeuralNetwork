@@ -1,4 +1,4 @@
-neuralnetwork
+NeuralNetwork
 =============
 
 A **simple** python neural network to analyse data from diabetic patients in 130 US hospitals [1].
